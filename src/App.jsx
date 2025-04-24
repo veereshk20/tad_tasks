@@ -29,7 +29,7 @@ const TADScreening = () => {
         <Card className="bg-white text-black text-center">
           <CardContent className="p-6">
             <h2 className="text-2xl font-bold text-orange-600 mb-4">Submit Your Work</h2>
-            <p className="mb-4">Click below to upload your submission. Submissions open on <strong>5th May</strong> and close on <strong>1th May</strong>.</p>
+            <p className="mb-4">Click below to upload your submission. Submissions open on <strong>5th May</strong> and close on <strong>15th May</strong>.</p>
             {isFormActive ? (
               <Button asChild className="bg-orange-500 hover:bg-orange-600">
                 <a href="https://forms.gle/M3N1DreBG4RoA1j2A" target="_blank">Upload Submission</a>
